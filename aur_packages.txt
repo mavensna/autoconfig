@@ -2,4 +2,4 @@ brave-bin
 visual-studio-code-bin
 ttf-meslo-nerd
 flameshot
-cloudfare-warp-bin
+cloudflare-warp-bin
