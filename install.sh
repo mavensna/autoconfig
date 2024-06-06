@@ -12,6 +12,9 @@ sudo systemctl start NetworkManager.service
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
 
+## Enable lightdm
+sudo systemctl enable lightdm.service
+
 ## Installing oh-my-zsh (Will automatically ask for changing the shell)
 yes | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
 
@@ -71,4 +74,5 @@ sudo systemctl start warp-svc.service
 cd ~
 git clone https://github.com/mavensna/.dotfiles.git
 cd .dotfiles
-stow .
+stow --adopt .
+git restore .
