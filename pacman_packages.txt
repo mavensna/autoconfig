@@ -1,0 +1,17 @@
+i3
+git
+base-devel
+stow
+zsh
+neovim
+alacritty
+tmux
+tree
+nitrogen
+man
+vlc
+eog
+bluez
+bluez-utils
+networkmanager
+neofetch
