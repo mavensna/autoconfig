@@ -1,4 +1,6 @@
 i3
+lightdm
+lightdm-gtk-greeter
 git
 base-devel
 stow
