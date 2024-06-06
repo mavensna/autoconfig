@@ -13,7 +13,7 @@ sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
 
 ## Installing oh-my-zsh (Will automatically ask for changing the shell)
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+yes | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
 
 ## Initialize git
 # Prompt user for email
