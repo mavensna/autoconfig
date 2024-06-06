@@ -15,3 +15,5 @@ bluez
 bluez-utils
 networkmanager
 neofetch
+xournalpp
+thunar
