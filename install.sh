@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ## Installing all the packages
-sudo chmod +x install.sh
+sudo chmod +x package_installation.sh
 ./package_installation.sh
 
 ## Enable and start network manager
